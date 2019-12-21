@@ -7,6 +7,10 @@ t - write to a user
 
 th - show history with user and send message
 
+tc - Talk to Groups
+
+tr - Quick reply to last user 
+
 
 it requires that you install telegram-cli, which - if you have brew installed - is a mere "brew install telegram" away.
 
@@ -17,15 +21,9 @@ Before you can use it, you have to start telegram-cli once in the command line t
 = Releases =
 
 0.0.1: Initial Release with commands: t, th -
-
+0.0.2: Added th, tc 
 
 = Wish List =
-
-- tg - Talk to Groups - currently limited because telegram-cli segfaults on the dialog_list command (known bug: https://github.com/vysheng/tg/issues/1580 ) - so we don't know what groups there are.
-
-- tl - show 5 last conversations (likely victim to same bug)
-
-- tr - Quick reply to last user
 
 - tc - Call user
 
