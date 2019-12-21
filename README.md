@@ -1,6 +1,8 @@
 # TeleFred
 An Alfred Workflow to Talk to Telegram
 
+Discussion: https://www.alfredforum.com/topic/14201-telefred-chat-through-telegram/
+
 t - write to a user
 
 th - show history with user and send message
