@@ -12,6 +12,7 @@ ta - Activate Telegram with user selected
 treset - Delete cache files (should have no effect), remove com.apple.quarantine flag from telegram-cli and start telegram-cli in terminal window, so you can 
 
 = To install: = 
+
 Before you can use it, you have to run 'treset' once, to remove the quarantine-flag from telegram-cli and log into telegram! 
 
 In the terminal:
