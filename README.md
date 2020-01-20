@@ -12,7 +12,17 @@ tc - Talk to Groups
 tr - Quick reply to last user 
 
 
-it requires that you install telegram-cli, which - if you have brew installed - is a mere "brew install telegram" away.
+it requires that you install telegram-cli.
+
+To install:
+
+- run in a terminal "brew install telegram-cli"
+
+- after the installation run "telegram" in the terminal
+
+- put your phone number (without the "+")
+
+- confirm the authentication code that you'll receive in your app
 
 
 Before you can use it, you have to start telegram-cli once in the command line to log in.
