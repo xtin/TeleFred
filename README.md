@@ -25,8 +25,10 @@ Telegram session information is stored in /.telegram-cli and not in the workflow
 
 = Releases =
 
-0.0.1: Initial Release with commands: t, th -
+0.0.1: Initial Release with commands: t, th
+
 0.0.2: Added th, tc 
+
 0.0.4: Major update: own telegram-cli from different repo (https://github.com/kenorb-contrib/tg, vysheng's seems abandoned, and brew installs the one from vysheng), merged th, tc and t, added ta to activate telegram with a certain user selected
 
 = Wish List =
