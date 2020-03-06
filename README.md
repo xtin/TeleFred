@@ -17,8 +17,8 @@ treset - Delete cache files (should have no effect), remove com.apple.quarantine
 - (If you don't have brew, ask google how to install it :) )
 - Before you can use it, you have to run 'treset' once, to remove the quarantine-flag from telegram-cli and log into telegram! 
 - In the terminal:
--- put your phone number (without the "+")
--- confirm the authentication code that you'll receive in your app
+ - put your phone number (without the "+")
+ - confirm the authentication code that you'll receive in your app
 
 Telegram session information is stored in ~/.telegram-cli and not in the workflow directory. If the workflow suddenly stops working, you might want to delete the folder and log-in again, the telegram-cli is a bit moody. 
 
