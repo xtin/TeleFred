@@ -13,15 +13,16 @@ treset - Delete cache files (should have no effect), remove com.apple.quarantine
 
 = To install: = 
 
-Before you can use it, you have to run 'treset' once, to remove the quarantine-flag from telegram-cli and log into telegram! 
+- Open a Terminal, and run "brew install telegram" to install the necessary dependencies. 
+- (If you don't have brew, ask google how to install it :) )
+- Before you can use it, you have to run 'treset' once, to remove the quarantine-flag from telegram-cli and log into telegram! 
+- In the terminal:
+-- put your phone number (without the "+")
+-- confirm the authentication code that you'll receive in your app
 
-In the terminal:
-- put your phone number (without the "+")
-- confirm the authentication code that you'll receive in your app
+Telegram session information is stored in ~/.telegram-cli and not in the workflow directory. If the workflow suddenly stops working, you might want to delete the folder and log-in again, the telegram-cli is a bit moody. 
 
-Telegram session information is stored in /.telegram-cli and not in the workflow directory.
-
-*UPDATE*: I've switched to delivering a self-compiled version of telegram-cli from a more up-to-date repo, 'treset' should unlock it - but please let me know if it doesn't run. You might have to run "brew install telegram" nonetheless to install all the linked libraries it requires - I can't really test without a second Mac around. If you don't like binary blobs, feel free to build "telegram-cli" yourself from the kenorb-contrib repo and replace it in the workflow's directory.
+*UPDATE*: I've switched to delivering a self-compiled version of telegram-cli from a more up-to-date repo, 'treset' should unlock it - but please let me know if it doesn't run. If you don't like binary blobs, feel free to build "telegram-cli" yourself from the kenorb-contrib repo and replace it in the workflow's directory.
 
 = Releases =
 
