@@ -15,7 +15,7 @@ treset - Delete cache files (should have no effect), remove com.apple.quarantine
 
 - Open a Terminal, and run "brew install telegram-cli" to install the necessary dependencies. 
 - (If you don't have brew, ask google how to install it :) )
-- Before you can use it, you have to run 'telegram treset' once, to remove the quarantine-flag from telegram-cli and log into telegram! 
+- Before you can use it, you have to run 'treset' once, to remove the quarantine-flag from telegram-cli and log into telegram! 
 - In the terminal:
  - put your phone number (without the "+")
  - confirm the authentication code that you'll receive in your app
