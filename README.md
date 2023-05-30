@@ -1,3 +1,5 @@
+- I am not using Alfred anymore, so I won't further maintain this plugin. If you're interested in taking over, please submit pull request with changes or fork the project from here. - 
+
 # TeleFred
 An Alfred Workflow to Talk to Telegram
 
